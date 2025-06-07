@@ -17,7 +17,8 @@ function Hero() {
             href="/Rushikesh_landge_resume.pdf"
             download
           >
-            <FontAwesomeIcon icon={faFileArrowDown}/> Download Resume
+            <FontAwesomeIcon icon={faFileArrowDown}/>
+            <span> Download Resume</span>
           </a>
         </div>
         <div className="right">

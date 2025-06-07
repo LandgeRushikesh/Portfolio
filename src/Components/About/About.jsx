@@ -19,7 +19,7 @@ function About() {
           <p className="content">
             Hi,
             <br />
-            I’m Rushikesh, a third-year Computer Engineering student with a love
+            I’m Rushikesh, a final-year Computer Engineering student with a love
             for coding and technology. Over the years, I’ve honed my skills in
             web development and have become increasingly interested in IoT and
             Artificial Intelligence. I am passionate about building products
