@@ -13,7 +13,7 @@ function Navbar() {
     <nav>
         <div className="left">Rushikesh Landge</div>
         <div className="right">
-            <ul className="sidemenu" style={`right:${menuOpen ? "0" : "-250px"}`}>
+            <ul className="sidemenu" style={{right:menuOpen ? "0" : "-250px"}}>
                 <li><NavLink to="/" onClick={CloseMenu}>Home</NavLink></li>
                 <li><NavLink to="/About" onClick={CloseMenu}>About</NavLink></li>
                 <li><NavLink to="/Eduction" onClick={CloseMenu}>Education</NavLink></li>
