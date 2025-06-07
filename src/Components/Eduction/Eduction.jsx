@@ -31,7 +31,7 @@ function Eduction() {
             <strong>Duration:</strong> 2020 - 2022
           </p>
           <p>
-            <strong>Grade:</strong> First className
+            <strong>Grade:</strong> First class
           </p>
         </div>
         <div className="education-item">
