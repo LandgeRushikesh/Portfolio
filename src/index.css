@@ -302,7 +302,7 @@ nav button {
 }
 .Project h1{
     font-size: 50px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 .Project-section{
     display: grid;
@@ -325,8 +325,6 @@ nav button {
 }
 .project-card *{
     padding: 6px;
-    
-
 }
 .project-card .title{
     color:  rgb(179, 106, 248);
@@ -342,7 +340,6 @@ nav button {
     color:#eb064e;
     padding: 8px;
 }
-
 .project-card a:hover{
     color:#e92261;
 }
@@ -525,7 +522,7 @@ nav .menu{
         padding: 20px 0px;
     }
     /* project section */
-    .project-section{
+    .Project-section{
         display: grid;
         grid-template-columns: 45% 45%;
         justify-content: space-between;
@@ -558,7 +555,7 @@ nav .menu{
         row-gap: 50px;
     }
     /* Project section */
-    .project-section{
+    .Project-section{
         display: grid;
         grid-template-columns: 1fr ;
         justify-content: space-between;
