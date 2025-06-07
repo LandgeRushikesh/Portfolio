@@ -1,5 +1,3 @@
-import React from "react";
-import Hero from "../Hero/Hero";
 import Separation from "../Separation";
 
 function Eduction() {
@@ -14,10 +12,10 @@ function Eduction() {
             <strong>Institution:</strong> Savitribai Phule Pune University
           </p>
           <p>
-            <strong>Duration:</strong> 2022 - 2026*
+            <strong>Duration:</strong> 2022 - 2026
           </p>
           <p>
-            <strong>GPA:</strong> 8.11 / 10
+            <strong>GPA:</strong> 7.67 / 10
           </p>
           <p>
             <strong>Relevant Coursework:</strong> Data Structures, Algorithms,
@@ -45,7 +43,7 @@ function Eduction() {
             <strong>Duration:</strong>2020
           </p>
           <p>
-            <strong>Grade:</strong> First className with distinction
+            <strong>Grade:</strong> First class with distinction
           </p>
         </div>
       </div>

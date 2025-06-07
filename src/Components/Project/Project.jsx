@@ -11,19 +11,19 @@ function Project() {
           {projects.map((project,i) => (
             <div className="project-card" key={i}>
               <img src={`/${project.img}`} alt="" />
-              <h2 class="title">{project.title}</h2>
-              <div class="desc">
+              <h2 className="title">{project.title}</h2>
+              <div className="desc">
                 <p>
                   <strong>Description:</strong>
                   <br />{project.description}
                 </p>
               </div>
-              <div class="tech">
+              <div className="tech">
                 <p>
                   <strong>Tech Stack: </strong>{project.techStack.join(", ")}
                 </p>
               </div>
-              <a href={`${project.repositoryLink}`} target="_blank" rel="noopener noreferrer"class="show">
+              <a href={`${project.repositoryLink}`} target="_blank" rel="noopener noreferrer"className="show">
                 View git Repository
               </a>
             </div>

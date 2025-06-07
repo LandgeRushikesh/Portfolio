@@ -1,26 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars,faXmark} from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
-  let sidemenu = document.querySelector(".sidemenu")
-  console.log(sidemenu)
+  const[menuOpen,setOpenMenu] = useState(false)
 
-  let openMenu = () =>{
-    sidemenu.style.right = "0"
-    console.log("click")
-  }
-
-  let CloseMenu = () =>{
-    sidemenu.style.right = "-250px"
-  }
+  const openMenu = ()=>setOpenMenu(true)
+  const CloseMenu = ()=>setOpenMenu(false)
 
   return (
     <nav>
         <div className="left">Rushikesh Landge</div>
         <div className="right">
-            <ul className="sidemenu">
+            <ul className="sidemenu" style={`right:${menuOpen ? "0" : "-250px"}`}>
                 <li><NavLink to="/" onClick={CloseMenu}>Home</NavLink></li>
                 <li><NavLink to="/About" onClick={CloseMenu}>About</NavLink></li>
                 <li><NavLink to="/Eduction" onClick={CloseMenu}>Education</NavLink></li>
