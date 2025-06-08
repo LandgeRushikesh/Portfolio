@@ -9,7 +9,10 @@ function Eduction() {
         <div className="education-item">
           <h3>Bachelor of Engineering in Computer Engineering</h3>
           <p>
-            <strong>Institution:</strong> Savitribai Phule Pune University
+            <strong>Institution:</strong> Sandip Institute Of Engineering And Management
+          </p>
+          <p>
+            <strong>University:</strong> Savitribai Phule Pune University
           </p>
           <p>
             <strong>Duration:</strong> 2022 - 2026
