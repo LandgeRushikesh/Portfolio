@@ -9,7 +9,7 @@ function Hero() {
       <section className="firstsection" id="Home-sec">
         <div className="left">
           <p id="first">
-            Welcome! I’m <span>Samidha</span>
+            Welcome! I’m <span>Rushikesh</span>
           </p>
           <p id="second">A developer with a love for innovation.</p>
           <a
