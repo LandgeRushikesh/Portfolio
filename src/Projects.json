@@ -1,5 +1,19 @@
 [
   {
+    "img": "Explore-Nashik.png",
+    "title": "Explore Nashik",
+    "description": "Explore Nashik is a responsive tourism guide web application built with React that helps users discover tourist attractions, events, and places in Nashik. The app integrates Firebase Firestore to store and fetch real-time data, allowing users to like or mark places/events as visited.",
+    "techStack": [
+      "React js",
+      "Tailwind CSS",
+      "Google Maps API",
+      "Firebase",
+      "Firestore",
+      "Authentication"
+    ],
+    "repositoryLink": "https://github.com/LandgeRushikesh/Explore-Nashik"
+  },
+  {
     "img": "click-cart.png",
     "title": "ClickCart",
     "description": "A responsive e-commerce front-end app that displays products from JSON data and enables users to add items to a cart with localStorage support. Includes a contact form integrated with EmailJS for customer communication.",
@@ -11,7 +25,7 @@
       "LocalStorage",
       "EmailJS"
     ],
-    "repositoryLink": "https://github.com/LandgeRushikesh/ClickCart"
+    "repositoryLink": "https://github.com/LandgeRushikesh/Ecom-website"
   },
   {
     "img": "ConvertXpert.png",
@@ -29,45 +43,21 @@
     "img": "todo-app.png",
     "title": "To-Do List App",
     "description": "A React-based to-do list app allowing users to add, update, delete, and mark tasks as completed. Built with Tailwind CSS and Context API for state management, featuring a clean, responsive interface.",
-    "techStack": [
-      "React",
-      "Context API",
-      "JavaScript",
-      "HTML",
-      "Tailwind CSS"
-    ],
+    "techStack": ["React", "Context API", "JavaScript", "Tailwind CSS"],
     "repositoryLink": "https://github.com/LandgeRushikesh/ToDo-List-App"
   },
   {
     "img": "netflix.png",
     "title": "Netflix Clone",
     "description": "A front-end clone replicating Netflix’s look and feel, focusing on clean UI/UX, responsive layouts, and user-friendly design to deliver an immersive streaming platform experience.",
-    "techStack": [
-      "HTML",
-      "CSS"
-    ],
+    "techStack": ["HTML", "CSS"],
     "repositoryLink": "https://github.com/LandgeRushikesh/Netflix-Clone"
-  },
-  {
-    "img": "weather-app.png",
-    "title": "Weather App",
-    "description": "A weather app that provides real-time data based on user location or city search, using the OpenWeather API. It dynamically updates the background and info to match current weather conditions for an engaging experience.",
-    "techStack": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "OpenWeather API"
-    ],
-    "repositoryLink": "https://github.com/LandgeRushikesh/Weather-App"
   },
   {
     "img": "amazon.png",
     "title": "Amazon Clone",
     "description": "A front-end Amazon clone focusing on UI/UX design, responsive layouts, and user-friendly navigation to replicate a familiar e-commerce shopping experience.",
-    "techStack": [
-      "HTML",
-      "CSS"
-    ],
+    "techStack": ["HTML", "CSS"],
     "repositoryLink": "https://github.com/LandgeRushikesh/Amazon-Clone"
   }
 ]
