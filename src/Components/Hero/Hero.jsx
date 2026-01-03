@@ -1,12 +1,30 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faFileArrowDown} from "@fortawesome/free-solid-svg-icons";
+import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import Separation from "../Separation";
+import Snowfall from "react-snowfall";
 
 function Hero() {
   return (
     <>
-      <section className="firstsection" id="Home-sec">
+      <Snowfall
+        style={{
+          position: "fixed",
+          width: "100vw",
+          height: "100vh",
+          zIndex: 0,
+          pointerEvents: "none",
+        }}
+        color="rgba(255, 255, 255, 0.9)"
+        speed={[0.5, 1]}
+        opacity={[0.3, 0.8]}
+        snowflakeCount={75}
+      />
+      <section
+        className="firstsection"
+        id="Home-sec"
+        style={{ position: "relative", zIndex: 1 }}
+      >
         <div className="left">
           <p id="first">
             Welcome! I’m <span>Rushikesh</span>
@@ -17,7 +35,7 @@ function Hero() {
             href="/Rushikesh_landge_resume.pdf"
             download
           >
-            <FontAwesomeIcon icon={faFileArrowDown}/>
+            <FontAwesomeIcon icon={faFileArrowDown} />
             <span> Download Resume</span>
           </a>
         </div>
