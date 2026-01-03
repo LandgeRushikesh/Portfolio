@@ -9,9 +9,8 @@ function Hero() {
     <>
       <Snowfall
         style={{
-          position: "fixed",
-          width: "100vw",
-          height: "100vh",
+          position: "absolute",
+          inset: 0,
           zIndex: 0,
           pointerEvents: "none",
         }}
