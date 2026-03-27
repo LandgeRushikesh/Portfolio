@@ -1,6 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDownload,
+  faFaceAngry,
+  faFile,
+  faFileDownload,
+} from "@fortawesome/free-solid-svg-icons";
 import Separation from "../Separation";
 import Snowfall from "react-snowfall";
 
@@ -29,12 +34,8 @@ function Hero() {
             Welcome! I’m <span>Rushikesh</span>
           </p>
           <p id="second">A developer with a love for innovation.</p>
-          <a
-            className="resume-download"
-            href="/Rushikesh_landge_resume.pdf"
-            download
-          >
-            <FontAwesomeIcon icon={faFileArrowDown} />
+          <a className="resume-download" href="/Rushikesh Landge.pdf" download>
+            <FontAwesomeIcon icon={faFile} />
             <span> Download Resume</span>
           </a>
         </div>

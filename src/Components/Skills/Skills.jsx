@@ -43,9 +43,12 @@ function Skills() {
             ["HTML-Logo.png", "HTML"],
             ["CSSLogo.png", "CSS"],
             ["JSLogo.png", "Javascript"],
+            ["TypeScriptLogo.png", "TypeScript"],
             ["reactLogo.png", "React"],
             ["tailwindLogo.png", "Tailwind CSS"],
             ["nodeLogo.png", "Node js"],
+            ["ExpressLogo.png", "Express js"],
+            ["MongoDBLogo.png", "MongoDB"],
             ["gitLogo.png", "Git"],
           ].map(([img, label], i) => (
             <span className="logo" key={i}>
