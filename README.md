@@ -57,6 +57,6 @@
 
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/RushiLandge22)
 
-[🔗 Portfolio:](https://rushilandge.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rushilandge.netlify.app/)
 
 ---
