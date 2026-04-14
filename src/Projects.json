@@ -28,6 +28,20 @@
     "repositoryLink": "https://github.com/LandgeRushikesh/Ecom-website"
   },
   {
+    "img": "KathaVerse_Banner.png",
+    "title": "KathaVerse",
+    "description": "KathaVerse is a full-stack story publishing platform that enables users to create, explore, and interact with stories through likes and follows. It features secure JWT-based authentication, a paginated story feed, and real-time user interactions with an optimized frontend architecture and scalable backend APIs.",
+    "techStack": [
+      "React (TypeScript)",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication"
+    ],
+    "repositoryLink": "https://github.com/LandgeRushikesh/Kathaverse"
+  },
+  {
     "img": "ConvertXpert.png",
     "title": "ConvertXpert",
     "description": "A professional currency converter web app that uses real-time exchange rates via API to convert between global currencies. Demonstrates API integration, dynamic UI, and efficient state management with React and Tailwind CSS.",
@@ -38,13 +52,6 @@
       "Currency Exchange API"
     ],
     "repositoryLink": "https://github.com/LandgeRushikesh/Currency-Converter-using-react"
-  },
-  {
-    "img": "todo-app.png",
-    "title": "To-Do List App",
-    "description": "A React-based to-do list app allowing users to add, update, delete, and mark tasks as completed. Built with Tailwind CSS and Context API for state management, featuring a clean, responsive interface.",
-    "techStack": ["React", "Context API", "JavaScript", "Tailwind CSS"],
-    "repositoryLink": "https://github.com/LandgeRushikesh/ToDo-List-App"
   },
   {
     "img": "netflix.png",

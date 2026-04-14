@@ -34,7 +34,11 @@ function Hero() {
             Welcome! I’m <span>Rushikesh</span>
           </p>
           <p id="second">A developer with a love for innovation.</p>
-          <a className="resume-download" href="/Rushikesh Landge.pdf" download>
+          <a
+            className="resume-download"
+            href="/Rushikesh_Landge_Resume.pdf"
+            download
+          >
             <FontAwesomeIcon icon={faFile} />
             <span> Download Resume</span>
           </a>
